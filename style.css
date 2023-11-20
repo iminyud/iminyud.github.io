@@ -1,0 +1,77 @@
+.img-fluid {
+ width: 100%;
+ height: auto;
+}
+
+.form-tambah {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.btn-tambah {
+  width: 100%;
+  background-color: #0088ff;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-edit:hover {
+  background-color: #5fb7f1;
+}
+
+.btn-hapus {
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-hapus:hover {
+  background-color: #e72424;
+}
+
+.box {
+  border-radius: 5px;
+  background-color: #f0eedc;
+  padding: 20px;
+}
+
+#tabel {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  text-align: center;
+  width: 100%;
+}
+
+#tabel td, #tabel th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#tabel tr:nth-child(even){background-color: #39b439;}
+#tabel th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: black;
+}
